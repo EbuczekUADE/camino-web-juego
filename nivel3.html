@@ -8,28 +8,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
-  <style>
-    body { margin: 0; padding: 30px 18px; background-color: #eef2ff; font-family: 'Nunito', sans-serif; color: #2c3358; text-align: center; }
-    .caja { max-width: 860px; margin: 0 auto; background-color: #ffffff; padding: 30px; border-radius: 24px; box-shadow: 0 12px 28px rgba(72, 87, 172, 0.14); }
-    h1 { margin-top: 0; color: #4a67d6; font-size: 38px; }
-    .camino { display: inline-block; margin-bottom: 18px; padding: 8px 18px; background-color: #e4eaff; border-radius: 999px; font-weight: 700; color: #4159bd; }
-    img { width: 100%; max-width: 320px; height: 210px; object-fit: cover; border-radius: 20px; box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1); }
-    p { font-size: 19px; line-height: 1.6; }
-    .pista { background-color: #f4f6ff; padding: 14px; border-radius: 18px; margin: 20px auto; max-width: 620px; }
-    .opcion { display: block; margin: 16px auto; padding: 16px; max-width: 560px; background-color: #f7fbff; border-radius: 18px; text-decoration: none; color: #24589a; font-size: 19px; font-weight: 700; box-shadow: 0 6px 14px rgba(30, 95, 149, 0.12); }
-  </style>
+  <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body>
-  <!-- Nivel 3 del recorrido -->
-  <section class="caja">
-    <div class="camino">Nivel 3 de 3</div>
-    <h1>Rutas y estilos b&aacute;sicos</h1>
-    <img src="../img/nivel3.svg" alt="Mapa de carpetas y archivos enlazados" width="320" height="210">
-    <p>&Uacute;ltimo tramo del camino. En este nivel aparece algo muy usado al conectar p&aacute;ginas entre carpetas.</p>
+<body class="fondo-lila">
+  <section class="contenedor tarjeta">
+    <div class="camino">Nivel 3 de 6</div>
+    <h1>Rutas relativas</h1>
+    <img class="imagen-nivel" src="../img/nivel3.svg" alt="Mapa de carpetas y rutas" width="320" height="210">
+    <p>Ac&aacute; repas&aacute;s c&oacute;mo volver de una carpeta a otra con enlaces.</p>
+
     <section class="pista">
-      <p>Si un archivo est&aacute; dentro de la carpeta <strong>niveles</strong> y quer&eacute;s volver a <strong>index.html</strong>, necesit&aacute;s subir un nivel en la ruta.</p>
+      <!-- Esta cajita da una pista sin resolver toda la pregunta -->
+      <p>Si est&aacute;s en la carpeta <strong>niveles</strong> y quer&eacute;s volver al inicio, ten&eacute;s que subir un nivel.</p>
     </section>
-    <p><strong>Pregunta:</strong><br>&iquest;Qu&eacute; enlace relativo est&aacute; bien escrito para volver desde <span>niveles/nivel3.html</span> hacia <span>index.html</span>?</p>
+
+    <p><strong>Pregunta:</strong><br>&iquest;Qu&eacute; ruta vuelve desde <strong>niveles/nivel3.html</strong> hasta <strong>index.html</strong>?</p>
+
     <a class="opcion" href="../respuestas/nivel3-incorrecta.html">href="index.html"</a>
     <a class="opcion" href="../respuestas/nivel3-correcta.html">href="../index.html"</a>
     <a class="opcion" href="../respuestas/nivel3-incorrecta.html">href="niveles/index.html"</a>

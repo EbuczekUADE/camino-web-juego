@@ -8,49 +8,61 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-  <style>
-    body { margin: 0; padding: 30px 20px; background-color: #eaf6ff; color: #234; text-align: center; font-family: 'Nunito', sans-serif; }
-    .contenedor { max-width: 900px; margin: 0 auto; }
-    .tarjeta { background-color: #ffffff; margin: 20px auto; padding: 30px; border-radius: 24px; box-shadow: 0 12px 30px rgba(33, 79, 120, 0.15); }
-    h1 { margin-top: 0; color: #1273c4; font-size: 42px; }
-    h2 { color: #ff8a00; font-size: 24px; }
-    p { font-size: 19px; line-height: 1.6; }
-    .destacado { color: #10a85b; font-weight: 800; }
-    .hero { width: 100%; max-width: 380px; height: 260px; object-fit: cover; border-radius: 22px; box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); filter: saturate(1.1); }
-    .boton { display: inline-block; margin-top: 20px; padding: 16px 34px; background-color: #ffd54a; color: #17324d; text-decoration: none; border-radius: 999px; font-size: 22px; font-weight: 800; box-shadow: 0 8px 18px rgba(255, 174, 0, 0.35); }
-    .info { width: 100%; margin-top: 25px; border-collapse: collapse; }
-    .info td { padding: 14px; border-radius: 14px; background-color: #f4fbff; border: 6px solid #ffffff; font-size: 18px; }
-    .etiqueta { display: inline-block; margin: 4px; padding: 8px 14px; background-color: #dff5e8; border-radius: 999px; color: #128049; font-weight: 700; }
-  </style>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-  <!-- Portada del juego educativo -->
+<body class="fondo-inicio">
   <div class="contenedor">
     <section class="tarjeta">
+      <!-- Este es el titulo principal del juego -->
       <h1>Camino Web</h1>
       <h2>Misi&oacute;n de aciertos y errores</h2>
-      <p>En esta aventura educativa vas a recorrer distintos niveles sobre dise&ntilde;o web b&aacute;sico. Tu misi&oacute;n es responder bien y avanzar por el <span class="destacado">camino de aprendizaje</span>.</p>
-      <img class="hero" src="img/portada.svg" alt="Estudiantes aprendiendo dise&ntilde;o web en un camino de niveles" width="380" height="260">
-      <p>Vas a practicar etiquetas HTML, im&aacute;genes, enlaces, estilos simples y rutas entre p&aacute;ginas.</p>
+
+      <p>
+        En esta aventura educativa vas a recorrer distintos niveles sobre dise&ntilde;o web b&aacute;sico.
+        Tu misi&oacute;n es responder bien y avanzar por el <span class="destacado">camino de aprendizaje</span>.
+      </p>
+
+      <!-- Esta imagen es decorativa, por eso igual le dejamos alt -->
+      <img class="imagen-principal" src="img/portada.svg" alt="Portada del juego educativo de dise&ntilde;o web" width="380" height="260">
+
+      <p>
+        Vas a practicar etiquetas HTML, im&aacute;genes, enlaces, rutas relativas y estilos simples con CSS.
+      </p>
+
+      <!-- Este boton arranca todo el recorrido -->
       <a class="boton" href="niveles/nivel1.html">Comenzar</a>
     </section>
 
     <section class="tarjeta">
       <h2>&iquest;Qu&eacute; vas a encontrar?</h2>
-      <table class="info">
-        <tr><td colspan="2"><strong>Recorrido por 6 niveles</strong></td></tr>
-        <tr><td>Preguntas con opciones</td><td>P&aacute;ginas de acierto y error</td></tr>
-        <tr><td>Botones con enlaces</td><td>Final de aventura</td></tr>
+
+      <table class="tabla-info">
+        <tr>
+          <td colspan="2"><strong>Recorrido por 6 niveles</strong></td>
+        </tr>
+        <tr>
+          <td>Preguntas con opciones</td>
+          <td>P&aacute;ginas de acierto y error</td>
+        </tr>
+        <tr>
+          <td>Botones con enlaces</td>
+          <td>Final de aventura</td>
+        </tr>
       </table>
-      <p>Temas del juego:
+
+      <p>
+        Temas del juego:
         <span class="etiqueta">HTML</span>
         <span class="etiqueta">im&aacute;genes</span>
         <span class="etiqueta">enlaces</span>
         <span class="etiqueta">CSS b&aacute;sico</span>
         <span class="etiqueta">margin y padding</span>
-        <span class="etiqueta">rutas relativas</span>
+        <span class="etiqueta">box-shadow</span>
       </p>
-      <blockquote>"Aprender dise&ntilde;o web tambi&eacute;n puede sentirse como avanzar por un juego."</blockquote>
+
+      <blockquote>
+        "Aprender dise&ntilde;o web tambi&eacute;n puede sentirse como avanzar por un juego."
+      </blockquote>
     </section>
   </div>
 </body>
