@@ -8,25 +8,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
-  <style>
-    body { margin: 0; padding: 30px 18px; background-color: #eefbff; font-family: 'Nunito', sans-serif; text-align: center; color: #244253; }
-    .tarjeta { max-width: 860px; margin: 0 auto; background-color: #ffffff; padding: 34px 28px; border-radius: 24px; box-shadow: 0 12px 28px rgba(53, 107, 144, 0.16); }
-    h1 { color: #1381c3; font-size: 40px; }
-    p { font-size: 20px; line-height: 1.6; }
-    img { width: 100%; max-width: 320px; height: 210px; object-fit: cover; border-radius: 20px; box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1); }
-    .resultado { display: inline-block; margin: 18px 0; padding: 12px 22px; background-color: #dff3ff; border-radius: 999px; color: #13689d; font-weight: 800; font-size: 20px; }
-    .boton { display: inline-block; margin: 12px 8px 0; padding: 14px 28px; background-color: #ffd54a; color: #17324d; text-decoration: none; border-radius: 999px; font-weight: 800; box-shadow: 0 8px 18px rgba(255, 174, 0, 0.35); }
-  </style>
+  <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body>
-  <!-- Pantalla final del juego -->
-  <section class="tarjeta">
+<body class="fondo-final">
+  <section class="contenedor tarjeta">
+    <!-- Esta es la pantalla final del recorrido -->
     <h1>&iexcl;Misi&oacute;n cumplida!</h1>
-    <img src="../img/trofeo.svg" alt="Trofeo por completar la aventura web" width="320" height="210">
-    <p>Llegaste al final del camino y demostraste que conoc&eacute;s conceptos b&aacute;sicos de dise&ntilde;o web.</p>
-    <p class="resultado">Resultado visual: 60 puntos de 60</p>
-    <p>Aprendiste sobre etiquetas, im&aacute;genes, enlaces, rutas relativas y estilos simples con CSS interno. Este proyecto tambi&eacute;n muestra c&oacute;mo navegar entre p&aacute;ginas reales con carpetas diferentes.</p>
-    <p>Segu&iacute; practicando: cada p&aacute;gina web que hagas es un nuevo nivel superado.</p>
+    <img class="imagen-nivel" src="../img/trofeo.svg" alt="Trofeo del final del juego" width="320" height="210">
+    <p>Llegaste al final del camino y repasaste temas de HTML y CSS b&aacute;sico.</p>
+    <p class="puntos">Resultado visual: 60 puntos de 60</p>
+    <p>
+      Viste etiquetas, im&aacute;genes, enlaces, rutas relativas, margin, padding y box-shadow.
+    </p>
     <a class="boton" href="../index.html">Jugar otra vez</a>
   </section>
 </body>
