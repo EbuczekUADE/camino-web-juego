@@ -458,9 +458,10 @@ p {
 
 .video-resultado {
   width: 100%;
-  max-width: 340px;
-  height: 220px;
-  object-fit: cover;
+  max-width: 420px;
+  height: 260px;
+  object-fit: contain;
+  background-color: #f5f7fa;
   border-radius: 22px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
   margin: 12px auto 18px;
