@@ -7,6 +7,4 @@
   <text x="457" y="171" font-size="44" font-family="Arial" fill="#1f78d1">&lt;img&gt;</text>
   <rect x="290" y="240" width="204" height="58" rx="18" fill="#eafaf0"/>
   <text x="335" y="277" font-size="44" font-family="Arial" fill="#16a45d">&lt;a&gt;</text>
-  <circle cx="177" cy="392" r="22" fill="#ff8a00"/>
-  <circle cx="621" cy="392" r="22" fill="#4a67d6"/>
 </svg>

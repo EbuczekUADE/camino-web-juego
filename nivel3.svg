@@ -7,8 +7,5 @@
   <text x="507" y="184" font-size="30" font-family="Arial" fill="#169154">niveles</text>
   <rect x="466" y="262" width="170" height="78" rx="20" fill="#fff3d5"/>
   <text x="489" y="308" font-size="30" font-family="Arial" fill="#d88900">nivel3.html</text>
-  <path d="M552 221v32" stroke="#4a67d6" stroke-width="12" stroke-linecap="round"/>
-  <path d="M451 299c-67 10-122-15-176-65" stroke="#1f78d1" stroke-width="14" stroke-linecap="round" fill="none"/>
-  <path d="M255 214l10 28 22-22" fill="none" stroke="#1f78d1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="302" y="286" font-size="40" font-family="Arial" fill="#4a67d6">../</text>
 </svg>
